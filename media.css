@@ -1,0 +1,592 @@
+@media screen and (max-width: 1200px){
+    /* header */
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__btn{
+        margin-left: 50%;
+    }
+
+    /* usluga */
+
+    .usluga__text{
+        width: 950px;
+    }
+
+    .usluga__box__icon{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .usluga__icon{
+        width: 45%;
+    }
+
+    /* zakaz */
+
+
+    .zakaz__img__image{
+        width: 400px;
+        height: 350px;
+     }
+
+     .zakaz__img__box{
+        margin-left: 40px;
+     }
+
+     .zakaz__img__box:after{
+        width: 118px;
+        height: 103px;
+    
+        content: "";
+        display: block;
+        position: absolute;
+        top: 395px;
+        left: 290px;
+        z-index: 1;
+    } 
+
+    .zakaz__box__info{
+        margin-left: 470px;
+    }
+
+    .zakaz__inner{
+        width: 100%;
+
+        display: block;
+    }
+
+    .zakaz__icon{
+        
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    .zakaz__btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 20px;
+
+    transition:  .1s all;
+
+    font-variant: small-caps;
+
+    color: #FFFFFF;
+
+    background-color: #0B2154;
+    border-radius: 10px;
+
+    padding: 11px 21px;
+    }
+
+    /* review */
+
+    .review__title{
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .review__text{
+        width: 300px;
+        font-size: 20px;
+        padding: 30px 14px;
+    }
+
+    .review__bac{
+        position: absolute;
+        top: 160px;
+        left: 6px;
+    }
+
+    /* car */
+
+    .car__img{
+        width: 456px;
+        height: 362px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    /* header */
+
+    .header__btn{
+        margin-left: 40%;
+    }
+
+    /* intro */
+
+    .intro__title{
+        width: 100%;
+        max-width: 730px;
+
+        font-size:45px ;
+    }
+
+    .intro__text{
+        width: 100%;
+        max-width: 730px;
+    }
+
+    /* usluga */
+
+    .usluga__text{
+        width: 750px;
+    }
+
+    .usluga__box__icon{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .usluga__icon{
+        width: 45%;
+    }
+
+    /* zakaz */
+
+
+    .zakaz__icon{
+        width: 100%;
+    }
+
+
+    .zakaz__img__image{
+        width: 300px;
+        height: 250px;
+     }
+
+     .zakaz__img__box{
+        margin-left: 40px;
+     }
+
+     .zakaz__img__box:after{
+        width: 118px;
+        height: 103px;
+    
+        content: "";
+        display: block;
+        position: absolute;
+        top: 295px;
+        left: 190px;
+        z-index: 1;
+    } 
+
+    .zakaz__box__info{
+        margin-top: 150px;
+        margin-left: 350px;
+    }
+
+    .zakaz__icon__title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+     /* review */
+
+     .review{
+        height: 1050px;
+     }
+
+     .review__box{
+        display: block;
+        margin-bottom: 50px;
+     }
+
+     .review__icon{
+        width: 100%;
+        margin-bottom: 40px;
+     }
+
+     .review__title{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .review__text{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .review__bac{
+        position: absolute;
+        top: 100px;
+        left: 6px;
+    }
+
+    .review__man__box{
+        padding-top: 150px;
+    }
+
+    /* car */
+
+    .car__img{
+        width: 300px;
+        height: 210px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    /* header */
+
+    .header{
+        display: none;
+    }
+
+    /* intro */
+
+    .intro{
+        height: 630px;
+
+        padding-top: 40px;
+    }
+
+    .intro__title{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .intro__text{
+        font-size: 20px;
+    }
+
+    /* usluga */
+
+    .usluga__title{
+        font-size: 24px;
+    }
+
+    .usluga__text{
+        width: 390px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .usluga__box__icon{
+        display: block;
+    }
+
+    .usluga__icon{
+        width: 45%;
+    }
+
+    /* zakaz */
+
+    .zakaz__icon{
+        width: 100%;
+    }
+
+    .zakaz__box__inner{
+        display:block;
+
+        position: relative;
+    }
+
+    .zakaz__img__image{
+        width: 300px;
+        height: 250px;
+
+        margin-top: 80px;
+        
+     }
+
+     .zakaz__img__box{
+        margin-left: 40px;
+
+       
+     }
+
+     .zakaz__img__box::before{
+        position: absolute;
+        top: 75px;
+        left: -4px;
+     }
+
+     .zakaz__img__box:after{
+        width: 118px;
+        height: 103px;
+    
+        content: "";
+        display: block;
+        position: absolute;
+        top: 231px;
+        left: 186px;
+        z-index: 1;
+    } 
+
+    .zakaz__box__info{
+        position: absolute;
+        top: 200px;
+        left: -300px;
+                
+    }
+
+    .zakaz__icon__title{
+        width: 300px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .buttonALL{
+        font-size: 14px;
+    }
+
+
+    .zakaz__img{
+        width: 400px;
+        height: 250px;
+    }
+
+    .zakaz__subtitle{
+        font-size: 20px;
+
+        margin-bottom: 10px;
+    }
+
+    .zakaz__title{
+        font-size: 25px;
+
+        margin-bottom: 20px;
+    }
+
+    .review__text{
+        font-size: 15px;
+        line-height: 17px;
+        padding: 15px 15px;
+    }
+
+    .review__bac{
+        position: absolute;
+        top: 65px;
+        left: 6px;
+    }
+
+    .review__man__box{
+        padding-top: 120px;
+    }
+
+    /* car */
+
+    .car__img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .car__big__img{
+        width: 200px;
+    }
+
+    .car__title{
+        font-size: 20px;
+
+        margin-bottom: 30px;
+    }
+
+    .button__review{
+        font-size: 10px;
+    }
+
+    /* info */
+
+    .info__img{
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .info__title{
+        font-size: 20px;
+    }
+
+    .info__text{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 414px){
+    /* intro */
+
+    .intro{
+        height: 630px;
+
+        padding-top: 40px;
+    }
+
+    .intro__title{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .intro__text{
+        font-size: 17px;
+    }
+
+    /* usluga */
+
+    .usluga__title{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .usluga__subtitle{
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .usluga__text{
+        width: 300px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .usluga__icon{
+        margin-bottom: 30px;
+    }
+
+    .usluga__img{
+        width: 300px;
+        height: 380px;
+    }
+    
+    .usluga__title__box{
+        width: 230px;
+        height: 50px;
+
+        position: absolute;
+        top: 345px;
+        left: 35px;
+    }
+
+    .usluga__title__icon{
+        font-size: 16px;
+    }
+
+    .usluga__title__img{
+        width: 40px;
+    }
+
+    /* zakaz */
+
+    .zakaz__icon{
+        width: 100%;
+    }
+
+    .zakaz__box__inner{
+        display:block;
+
+        position: relative;
+    }
+
+    .zakaz__img__image{
+        width: 250px;
+        height: 200px;
+
+        margin-top: 50px;
+        margin-left: 20px;
+     }
+        
+
+     .zakaz__img__box{
+        width: 100%;
+        display: flex;
+
+        margin: 0 auto;
+     }
+
+     .zakaz__img__box::before{
+        position: absolute;
+        top: 45px;
+        left: 15px;
+     }
+
+     .zakaz__img__box:after{
+        width: 118px;
+        height: 103px;
+    
+        content: "";
+        display: block;
+        position: absolute;
+        top: 152px;
+        left: 157px;
+        z-index: 1;
+    } 
+
+    .zakaz__box__info{
+        position: absolute;
+        top: 200px;
+        left: -350px;            
+    }
+
+    .zakaz__icon__title{
+        width: 300px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .buttonALL{
+        font-size: 14px;
+    }
+
+    .zakaz__img{
+        width: 280px;
+        height: 150px;
+    }
+
+    .zakaz__content{
+        margin-left: 20px;
+        position: absolute;
+        top: -50;
+    }
+
+    .zakaz__subtitle{
+        font-size: 16px;
+
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+
+    .zakaz__title{
+        font-size: 20px;
+
+        margin-bottom: 10px;
+    }
+
+    .zakaz__btn{
+        font-size: 10px;
+        padding: 6px 15px ;
+    }
+
+    /* info */
+
+    .info{
+        height: 300px;
+    }
+
+    .info__inner{
+        display: block;
+    }
+
+    .info__icon{
+        width: 100%;
+
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .info__img{
+        width: 30px;
+    }
+}
